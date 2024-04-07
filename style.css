@@ -1,0 +1,195 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+header {
+    font-size: larger;
+    height: 8vh;
+    background-color: #222;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex; 
+    margin-left: auto; 
+    align-items: center; 
+}
+
+header li {
+    margin: 0 20px;
+}
+
+input {
+    width: 90px;
+    padding: 5px;
+    background-color: #ffffff6b;
+    border-radius: 4px;
+    border: 2px solid black;
+    font-size: large;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+input:hover {
+    background-color: #ffffff30;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero {
+    height: 18vh;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 80px;
+    color: #ec9946;
+    font-family: 'Capriola', sans-serif;
+}
+
+.hero p {
+    font-size: 25px;
+    margin-top: 20px;
+    color: #ec9946;
+    font-family: 'Capriola', sans-serif;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+#facilities{
+    display: flex;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.facility {
+    margin-bottom: 40px;
+}
+
+.facility img {
+    width: 450px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.dark-bg {
+    background-color: #333;
+    padding: 60px 0;
+}
+
+.testimonial {
+    display: flex;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+}
+
+.testimonial p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.testimonial .author {
+    font-weight: bold;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#facilities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.facility {
+    flex: 0 0 calc(33% - 20px); 
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.facility h3 {
+    font-size: 26px;
+    color: #acabab;
+}
+
+.facility p {
+    font-size: 18px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+}
+
+.testimonial p {
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.testimonial .author {
+    font-weight: bold;
+}
+
+nav ul div {
+    margin-left: 1100px;
+}
